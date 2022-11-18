@@ -1,0 +1,91 @@
+[
+    {
+        "name": "magyarjeti/mime-types",
+        "version": "1.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/magyarjeti/mime-types.git",
+            "reference": "cbfce759ce0c22c893346d5ec0c61f65ba45b3ed"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/magyarjeti/mime-types/zipball/cbfce759ce0c22c893346d5ec0c61f65ba45b3ed",
+            "reference": "cbfce759ce0c22c893346d5ec0c61f65ba45b3ed",
+            "shasum": ""
+        },
+        "require-dev": {
+            "squizlabs/php_codesniffer": "^2.6"
+        },
+        "time": "2016-08-31T10:20:27+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Magyarjeti\\MimeTypes\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Kovago Zoltan",
+                "email": "kovagoz@444.hu"
+            }
+        ],
+        "description": "A converter between mime types and file extensions."
+    },
+    {
+        "name": "twilio/sdk",
+        "version": "6.43.2",
+        "version_normalized": "6.43.2.0",
+        "source": {
+            "type": "git",
+            "url": "git@github.com:twilio/twilio-php.git",
+            "reference": "3050f35b4c4587042a21c982a3aa1707c3dc940b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/twilio/twilio-php/zipball/3050f35b4c4587042a21c982a3aa1707c3dc940b",
+            "reference": "3050f35b4c4587042a21c982a3aa1707c3dc940b",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=7.1.0"
+        },
+        "require-dev": {
+            "guzzlehttp/guzzle": "^6.3 || ^7.0",
+            "phpunit/phpunit": ">=7.0"
+        },
+        "suggest": {
+            "guzzlehttp/guzzle": "An HTTP client to execute the API requests"
+        },
+        "time": "2022-11-10T16:36:00+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Twilio\\": "src/Twilio/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Twilio API Team",
+                "email": "api@twilio.com"
+            }
+        ],
+        "description": "A PHP wrapper for Twilio's API",
+        "homepage": "https://github.com/twilio/twilio-php",
+        "keywords": [
+            "api",
+            "sms",
+            "twilio"
+        ]
+    }
+]

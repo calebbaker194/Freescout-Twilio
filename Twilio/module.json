@@ -1,0 +1,25 @@
+{
+    "name": "Twilio Integration",
+    "alias": "twilio",
+    "description": "Connect your phone number to freescout via SMS and MMS if your provider is Twilio",
+    "version": "1.0.0",
+    "detailsUrl": "https://github.com/calebbaker194/Freescout-Twilio/blob/main/README.md",
+    "img": "https://cdn.cdnlogo.com/logos/t/57/twilio.svg",
+    "author": "Caleb Baker",
+    "authorUrl": "https://github.com/calebbaker194/Freescout-Twilio/blob/main/README.md",
+    "requiredAppVersion": "1.0.2",
+    "license": "MIT",
+    "keywords": [],
+    "active": 0,
+    "order": 0,
+    "providers": [
+        "Modules\\Twilio\\Providers\\TwilioServiceProvider"
+    ],
+    "aliases": {
+        "Twillio": "Modules\\Twilio\\Providers\\TwilioServiceProvider"
+    },
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

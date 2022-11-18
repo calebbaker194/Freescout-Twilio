@@ -1,0 +1,25 @@
+{
+    "name": "Twilio Integeration",
+    "alias": "twilio",
+    "description": "Connect Twilio SMS and MMS to freescout",
+    "version": "1.0.0",
+    "detailsUrl": "https://github.com/calebbaker194/Freescout-Twilio/",
+    "author": "Caleb Baker",
+    "authorUrl": "https://github.com/calebbaker194/Freescout-Twilio",
+    "requiredAppVersion": "1.6.17",
+    "license": "MIT",
+    "img": "https://cdn.cdnlogo.com/logos/t/57/twilio.svg",
+    "keywords": [],
+    "active": 0,
+    "order": 0,
+    "providers": [
+        "Modules\\Twilio\\Providers\\TwilioServiceProvider"
+    ],
+    "aliases": {
+        "Twilio": "Modules\\Twilio\\Providers\\TwilioServiceProvider"
+    },
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}
