@@ -34,6 +34,14 @@
                     <input type="text" class="form-control input-sized-lg" name="settings[auth_token]" value="{{ $settings['auth_token'] ?? '' }}">
                 </div>
             </div>
+            
+            <div class="form-group">
+                <label class="col-sm-2 control-label">{{ __('Phone Number') }}</label>
+
+                <div class="col-sm-6">
+                    <input type="text" class="form-control input-sized-lg" name="settings[number]" value="{{ $settings['number'] ?? '' }}">
+                </div>
+            </div>
 
             <div class="form-group">
                 <label class="col-sm-2 control-label">{{ __('Callback URL') }}</label>

@@ -125,7 +125,7 @@ class TwilioServiceProvider extends ServiceProvider
                     array_push($mediaUrls,$attachment->url());
                 }
             }           
-            
+            $driver_config = $mailbox->meta['twilio'] ?? [];
              \Twilio::log('Sending Message With From : +'.$customer->channel_id);
             
             // Text Customer $text,  $customer->channel_id (Probably number too)
@@ -133,7 +133,7 @@ class TwilioServiceProvider extends ServiceProvider
                   ->create("+".$customer->channel_id, // to
                            [
                                "body" => $thread->getBodyAsText(),
-                               "from" => "+18884283898",
+                               "from" => $driver_config['number'],
                                "mediaUrl" => $mediaUrls
                            ]
             );
